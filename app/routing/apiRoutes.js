@@ -33,7 +33,7 @@ module.exports = function(app) {
             };
             currentScore=0;
         }
-        res.JSON({
+        res.json({
             name: matchedName,
             photo: matchedPhoto
         })
