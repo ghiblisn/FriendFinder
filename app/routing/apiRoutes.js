@@ -29,7 +29,7 @@ module.exports = function(app) {
             if(currentScore<bestScore || bestScore==-1){
                 bestScore = currentScore;
                 matchedName = friendsData[i].name;
-                friendsData[i].photo;
+                matchedPhoto = friendsData[i].photo;
             };
             currentScore=0;
         }
